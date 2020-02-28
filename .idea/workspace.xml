@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f8e2f76-e0d1-4a90-b411-ee62f49afcbe" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YLwmhaiNPFjnbLSexERgMrIJDy" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Artem\Desktop\macdonalds\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f8e2f76-e0d1-4a90-b411-ee62f49afcbe" name="Default Changelist" comment="" />
+      <created>1582735342777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582735342777</updated>
+      <workItem from="1582735344133" duration="112000" />
+      <workItem from="1582735524570" duration="846000" />
+      <workItem from="1582785902718" duration="515000" />
+      <workItem from="1582786464356" duration="199000" />
+      <workItem from="1582786702796" duration="55000" />
+      <workItem from="1582786773461" duration="596000" />
+      <workItem from="1582787451838" duration="234000" />
+      <workItem from="1582787716116" duration="1681000" />
+      <workItem from="1582790240801" duration="33000" />
+      <workItem from="1582790303869" duration="709000" />
+      <workItem from="1582791057736" duration="921000" />
+      <workItem from="1582792627384" duration="1814000" />
+      <workItem from="1582794489198" duration="1734000" />
+      <workItem from="1582800734255" duration="1531000" />
+      <workItem from="1582802295513" duration="225000" />
+      <workItem from="1582802550933" duration="1764000" />
+      <workItem from="1582804374669" duration="1835000" />
+      <workItem from="1582806297383" duration="1774000" />
+      <workItem from="1582808115968" duration="1869000" />
+      <workItem from="1582810042203" duration="2026000" />
+      <workItem from="1582815824000" duration="1769000" />
+      <workItem from="1582817640927" duration="928000" />
+      <workItem from="1582819570460" duration="1609000" />
+      <workItem from="1582821220891" duration="22000" />
+      <workItem from="1582821273747" duration="14000" />
+      <workItem from="1582821329107" duration="621000" />
+      <workItem from="1582822161308" duration="693000" />
+      <workItem from="1582823116371" duration="1754000" />
+      <workItem from="1582824906355" duration="1773000" />
+      <workItem from="1582826722706" duration="261000" />
+      <workItem from="1582829066905" duration="1770000" />
+      <workItem from="1582830886933" duration="981000" />
+      <workItem from="1582859124746" duration="1767000" />
+      <workItem from="1582860939197" duration="940000" />
+      <workItem from="1582866014135" duration="689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
