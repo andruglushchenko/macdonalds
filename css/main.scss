@@ -1,19 +1,31 @@
+
 @font-face {
   font-family: 'Arial';
-  src: url(../fonts/Arial.eot);
-  src: url(../fonts/Arial.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/Arial.woff2) format('woff2'),
-  url(../fonts/Arial.woff) format('woff'),
-  url(../fonts/Arial.ttf) format('truetype'),
-  url(../fonts/Arial.svg#Arial) format('svg');
+  src: url('../fonts/ArialMT.eot');
+  src: url('../fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ArialMT.woff2') format('woff2'),
+  url('../fonts/ArialMT.woff') format('woff'),
+  url('../fonts/ArialMT.ttf') format('truetype'),
+  url('../fonts/ArialMT.svg#ArialMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica-Regular.eot');
+  src: url('../fonts/Helvetica-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Helvetica-Regular.woff2') format('woff2'),
+  url('../fonts/Helvetica-Regular.woff') format('woff'),
+  url('../fonts/Helvetica-Regular.ttf') format('truetype'),
+  url('../fonts/Helvetica-Regular.svg#Helvetica-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 body{
   margin: 0;
-  padding-top: 30px;
+  padding: 30px 0 0;
   background: #fff;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Lato',sans-serif ;
 }
 *{
   box-sizing: border-box;
@@ -21,9 +33,10 @@ body{
   padding: 0;
 
 }
-section,.h1, .h2, .h3, h1, h2, h3,h4,h5,h6,p,.btn,a,img,ul{
+section,.h1, .h2, .h3, h1, h2, h3,h4,h5,h6,p,.btn,a,img,ul,span{
   margin:0;
   padding: 0;
+  line-height: 1;
 }
 ul{
   list-style: none;
@@ -34,291 +47,201 @@ a{
     text-decoration: none;
   }
 }
-.container{
-  max-width: 1120px;
-  margin: auto;
-  padding: 40px 40px 0;
+h2{
+  font-size: 64px;
+  font-weight: 700;
+  color: #212020;
+  margin-bottom: 50px;
+}
+p{
+  font-size: 32px;
+  font-weight: 400;
+  color: #212020;
+  font-family: 'Arial',sans-serif;
+  margin-bottom: 50px;
+}
+.btn{
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 400;
+  color:#254f36;
+  line-height: 80px;
+  background: transparent;
+  border: solid 2px #254f36;
+  border-radius: 10px;
+  transition: 0.4s;
+  &:hover{
+    background: #254f36;
+    color: #fff;
+  }
 }
 .card{
-  margin-bottom: 55px;
+  max-width: 1120px;
+  margin: 0 auto 90px;
   &:after{
     display: block;
     clear: both;
     content: '';
   }
+  .for_img{
+    float: left;
+    max-width: 535px;
+    border-radius: 20px;
+    overflow: hidden;
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+  .card_body{
+    float: right;
+    max-width: 500px;
+    text-align: center;
+  }
 }
 //===========================
 header{
-  .container{
-    display: flex;
-    justify-content: space-between;
-    background: url("../images/header_bg1.jpg")center top no-repeat;
-    background-size: cover;
-  }
-  .for_banner{
-    position: relative;
-    text-align: center;
-    &:after{
-      position: absolute;
-      display: inline-block;
-      content: url("../images/arrow.png");
-      bottom:32%;
-      left: 70%;
-    }
+  max-width: 1120px;
+  margin: auto;
+  position: relative;
+  border-radius: 30px 30px 0 0;
+  overflow: hidden;
     img{
       display: block;
-      margin-bottom: 80px;
+      width: 100%;
     }
-    h3{
-      font-size: 32px;
-      font-weight: 700;
-      color: #fff;
-      padding-bottom: 190px;
-      span{
-        display: block;
-      }
+    .logo{
+      position: absolute;
+      top:40px;
+      right: 30px;
     }
   }
-}
 //=================================
 .intro{
   text-align: center;
-  margin-bottom: 160px;
-  .container{
-    background: #ffbc0d;
-    border-radius: 0 0 20px 20px;
-    position: relative;
+  max-width: 1120px;
+  margin: 0 auto 110px;
+  background: #ffbc0d;
+  border-radius: 0 0 20px 20px;
+  position: relative;
+  padding: 60px 40px;
     &:after{
       position: absolute;
       display: block;
       content: url("../images/vector.png");
-      bottom: -47px;
+      bottom: -45px;
       right: 20px;
-    }
   }
   h1{
     font-size: 64px;
     font-weight: 700;
     color:#fff;
-    margin-bottom: 45px;
-  }
-  p{
-    font-size: 32px;
-    font-weight: 400;
-    color:#fff;
-    font-family: 'Arial',sans-serif;
     margin-bottom: 50px;
   }
-  a{
-    display: inline-block;
-    font-size: 36px;
-    font-weight: 400;
-    color:#254f36;
-    line-height: 80px;
+  p{
+    color: #fff;
+  }
+  .btn{
     min-width: 350px;
-    background: transparent;
-    border: solid 2px #254f36;
-    border-radius: 10px;
-    margin-bottom: 60px;
-    transition: 0.4s;
-    &:hover{
-      background: #254f36;
-      color: #fff;
-    }
   }
 }
 //=================================
 .journey{
-  max-width: 1120px;
-  margin: auto;
-  .for_img{
-    position: relative;
-    float: left;
-    max-width: 535px;
-    border-radius: 15px;
-    &:after{
-      position: absolute;
-      display: inline-block;
-      content: url("../images/journey2.png");
-      top:-30px;
-      left: 30px;
-    }
-    img{
-      display: block;
-      width: 100%;
-    }
+  margin-bottom: 55px;
+  h2{
+    margin: 50px 0 40px;
   }
-  .card_body{
-    float: right;
-    max-width: 500px;
-    text-align: center;
-    h2{
-      font-size: 64px;
-      font-weight: 700;
-      color: #212020;
-      margin-bottom: 40px;
-    }
-    p{
-      font-family: 'Arial',sans-serif;
-      font-size: 32px;
-      font-weight: 400;
-      color: #212020;
-      margin-bottom: 55px;
-    }
-    a{
-      display: inline-block;
-      min-width: 315px;
-      line-height: 80px;
-      font-size: 36px;
-      font-weight: 400;
-      color: #264f36;
-      border: solid 2px #254f36;
-      border-radius: 10px;
-    }
+  p{
+    margin-bottom: 60px;
+  }
+  .btn{
+    min-width: 320px;
   }
 }
 //=============================
 .offers{
   text-align: center;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
+  max-width: 1120px;
   h2{
-    font-size: 64px;
-    font-weight: 700;
-    color: #212020;
     margin-bottom: 40px;
   }
   p{
-    font-family: 'Arial',sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    color: #212020;
     margin-bottom: 60px;
   }
   .for_img{
-    position: relative;
     margin-bottom: 60px;
     border-radius: 20px;
     overflow: hidden;
-    &:after{
-      position: absolute;
-      display: inline-block;
-      content: url("../images/offers2.png");
-      z-index: 1;
-      top:40px;
-      right: 40px;
-    }
     img{
       display: block;
       width: 100%;
     }
   }
-  a{
-    display: inline-block;
+  .btn{
     min-width: 400px;
-    line-height: 80px;
-    font-size: 36px;
-    font-weight: 400;
-    color: #264f36;
-    border: solid 2px #254f36;
-    border-radius: 10px;
-    transition: 0.4s;
-    &:hover{
-      background: #254f36 ;
-      color: #fff;
-    }
   }
 }
 //=============================
-
-.card{
-  max-width: 1120px;
-  margin: 0 auto 90px;
-  .for_img{
-    position: relative;
-    float: left;
-    max-width: 535px;
-    border-radius: 15px;
-    img{
-      display: block;
-      width: 100%;
-    }
+.cheeseburger{
+  margin-bottom: 90px;
+  h2{
+    margin-bottom: 35px;
   }
-  .card_body{
-    float: right;
-    max-width: 500px;
-    text-align: center;
-    h2{
-      font-size: 64px;
-      font-weight: 700;
-      color: #212020;
-      line-height: 64px;
-      margin-bottom: 35px;
-    }
-    p{
-      font-family: 'Arial',sans-serif;
-      font-size: 32px;
-      font-weight: 400;
-      color: #212020;
-      margin-bottom: 35px;
-    }
-    a{
-      display: inline-block;
-      min-width: 315px;
-      line-height: 80px;
-      font-size: 36px;
-      font-weight: 400;
-      color: #264f36;
-      border: solid 2px #254f36;
-      border-radius: 10px;
-      transition: 0.4s;
-      &:hover{
-        background: #254f36 ;
-        color: #fff;
-      }
-    }
+  p{
+    margin-bottom: 35px;
+  }
+  .btn{
+    min-width: 320px;
   }
 }
-//==============================
-.happymeal{
+//===============================
+.happy_meal{
+  margin-bottom: 80px;
+  h2{
+    margin-bottom: 35px;
+  }
+  p{
+    margin-bottom: 35px;
+  }
   .for_img{
     float: right;
   }
   .card_body{
     float: left;
-    a{
+    .btn{
       min-width: 400px;
     }
   }
 }
 //========================================
-.pizza {
-  .card_body {
-    h2 {
-      margin-bottom: 50px;
-    }
-
-    p {
-      margin-bottom: 50px;
-    }
+.pizza{
+  margin-bottom: 95px;
+  h2{
+    margin-bottom: 50px;
+  }
+  p{
+    margin-bottom: 50px;
+  }
+  .btn{
+    min-width: 320px;
   }
 }
-//=========================================
-
+//========================================
 .sneak{
   margin-bottom: 110px;
+  h2{
+    margin-bottom: 40px;
+  }
+  p{
+    margin-bottom: 55px;
+  }
   .for_img{
     float: right;
   }
   .card_body{
     float: left;
-    h2 {
-      margin-bottom: 40px;
-    }
-
-    p {
-      margin-bottom: 55px;
-    }
-    a{
+    .btn{
       min-width: 400px;
     }
   }
@@ -332,18 +255,24 @@ footer {
     margin: 0 auto 80px;
     display: flex;
     justify-content: space-between;
-
     .logo {
       display: inline-block;
       height: 160px;
       width: 160px;
       border-radius: 10px;
       background: #254f36;
+      transition: 0.4s;
+      &:hover{
+        -webkit-box-shadow: 0 0 9px 10px rgba(0,0,0,0.62);
+        box-shadow: 0 0 9px 10px rgba(0,0,0,0.62);
+      }
     }
 
     .social {
       display: flex;
       justify-content: center;
+      background: #254f36;
+      border-radius: 10px;
       a {
         position: relative;
         display: flex;
@@ -404,23 +333,26 @@ footer {
     }
   }
   h3{
+    font-family: 'Helvetica',sans-serif;
     font-size: 36px;
     font-weight: 400;
     color: #7b7b7a;
     text-align: center;
     margin-bottom: 45px;
   }
-  .btn{
+  .footer_btn{
     position: relative;
     display: inline-block;
-    padding: 10px 0 10px 170px;
+    padding: 20px 25px 20px 155px;
     border: solid 2px #7b7b7a;
     border-radius: 15px;
     background: #000;
+    font-family: 'Arial', sans-serif;
     font-size: 25px;
     font-weight: 400;
     color: #fff;
-    min-width: 450px;
+    min-width: 455px;
+    text-align: left;
     transition: 0.4s;
     &:hover{
       -webkit-box-shadow: 0 0 9px 10px rgba(0,0,0,0.62);
@@ -437,7 +369,7 @@ footer {
         color:#fff;
         font-family: "Font Awesome\ 5 Brands", "Font Awesome\ 5 Free", sans-serif;
         left:30px;
-        top:12px;
+        top:22px;
       }
     }
     &:before{
@@ -449,14 +381,16 @@ footer {
       color:#fff;
       font-family: "Font Awesome\ 5 Brands", "Font Awesome\ 5 Free", sans-serif;
       left:30px;
-      top:5px;
+      top:15px;
     }
     span{
       all:initial;
+      font-family: 'Arial', sans-serif;
       display: block;
       font-size: 50px;
       font-weight: 400;
       color: #fff;
+      text-align: left;
       cursor: pointer;
     }
   }
@@ -468,11 +402,14 @@ footer {
     i{
       font-size: 50px;
       color: #7b7b7a;
+      cursor: pointer;
+      &:hover{
+        color: #254f36;
+      }
     }
   }
   p{
-    font-size:32px ;
-    font-weight:400 ;
+    font-family: 'Arial', sans-serif;
     color: #706f6f;
     max-width: 960px;
     margin:0 auto 45px;
@@ -484,11 +421,16 @@ footer {
     a{
       display: inline-block;
       position: relative;
+      font-family: 'Arial', sans-serif;
       font-size:32px ;
       font-weight:400 ;
       color: #706f6f;
       border-bottom: solid 2px #706f6f;
       margin-left: 36px;
+      &:hover{
+        color: #254f36;
+        border-bottom: solid 2px #254f36;
+      }
       &:first-of-type{
         margin-left: 0 ;
       }
@@ -509,6 +451,8 @@ footer {
   }
   .copyright{
     text-align: center;
+    font-family: 'Arial',sans-serif;
+    font-weight: 400;
     &:before{
       position: relative;
       top:-3px;
@@ -521,7 +465,132 @@ footer {
     }
   }
 }
-
-
-
+//===============================
+@media(max-width: 992px){
+  footer{
+    padding: 0 15px;
+  }
+  footer .container{
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container .logo{
+    margin-bottom: 50px;
+  }
+  footer .container .social a{
+    width: 130px;
+    height: 130px;
+  }
+  footer .footer_btn:first-of-type{
+    margin-bottom: 50px;
+  }
+  footer p{
+    font-size:20px;
+  }
+  footer .our_contacts a{
+    font-size: 20px;
+  }
+}
+@media(max-width: 768px){
+  .banner .container .logo{
+    top:15px;
+    right: 15px;
+  }
+  .card{
+    padding: 0 15px;
+    margin-bottom: 50px;
+  }
+  .card .for_img{
+    float:none;
+    margin: 0 auto 50px;
+  }
+  .card .card_body{
+    float: none;
+    margin: auto;
+  }
+  .journey .card_body{
+    float: none;
+    margin: auto;
+  }
+  .happy_meal .for_img{
+    margin-bottom: 0;
+  }
+  .offers{
+    padding: 0 15px;
+  }
+  .offers .for_img:after{
+    right: 0;
+    left: 0;
+  }
+}
+//===============================
+@media(max-width: 576px){
+  header .logo{
+    top:15px;
+    right: 15px;
+  }
+  .intro{
+    padding: 40px 15px;
+    margin-bottom: 80px;
+  }
+  .intro h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 30px;
+  }
+   p{
+    font-size: 17px;
+  }
+  .btn{
+    font-size: 22px;
+  }
+  .intro .btn, .journey .btn,.offers .btn,
+  .cheeseburger .btn, .happy_meal .card_body .btn,
+  .pizza .btn,.sneak .card_body .btn{
+    min-width: 250px;
+  }
+  footer .container .social a{
+    width: 70px;
+    height: 70px;
+  }
+  footer .container .social a:before{
+    font-size: 30px;
+  }
+  footer .container .social a:after{
+    height: 70px;
+  }
+  footer .footer_btn{
+    font-size: 15px;
+    min-width: 250px;
+    padding-left: 90px;
+  }
+  footer .footer_btn:before{
+    font-size: 50px;
+  }
+  footer .footer_btn:nth-of-type(2):before{
+    font-size: 50px;
+  }
+  footer .footer_btn span{
+    font-size: 30px;
+  }
+  footer h3{
+    font-size: 20px;
+  }
+  footer .inner{
+    max-width: 200px;
+  }
+  footer p{
+    font-size: 17px;
+  }
+  footer .our_contacts a:after{
+    display: none;
+  }
+  footer .our_contacts a{
+    font-size: 15px;
+  }
+  footer .our_contacts a{
+    margin-left: 10px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

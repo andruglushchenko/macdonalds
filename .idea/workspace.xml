@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f8e2f76-e0d1-4a90-b411-ee62f49afcbe" name="Default Changelist" comment="" />
+    <list default="true" id="4f8e2f76-e0d1-4a90-b411-ee62f49afcbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Arial.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Arial.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Arial.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Arial.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Arial.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/happymeal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/header_bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/journey1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/journey2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offers1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offers2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +40,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YLwmhaiNPFjnbLSexERgMrIJDy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -90,11 +113,52 @@
       <workItem from="1582830886933" duration="981000" />
       <workItem from="1582859124746" duration="1767000" />
       <workItem from="1582860939197" duration="940000" />
-      <workItem from="1582866014135" duration="689000" />
+      <workItem from="1582866014135" duration="1390000" />
+      <workItem from="1582876180936" duration="1913000" />
+      <workItem from="1582878143357" duration="1828000" />
+      <workItem from="1582880020677" duration="44000" />
+      <workItem from="1582880135996" duration="831000" />
+      <workItem from="1582887221584" duration="1780000" />
+      <workItem from="1582889301570" duration="1813000" />
+      <workItem from="1582891162805" duration="1802000" />
+      <workItem from="1582893008110" duration="1964000" />
+      <workItem from="1582895017215" duration="1815000" />
+      <workItem from="1582903384193" duration="1687000" />
+      <workItem from="1582905202880" duration="1772000" />
+      <workItem from="1582907020179" duration="587000" />
+      <workItem from="1582948985831" duration="1770000" />
+      <workItem from="1582950802273" duration="1816000" />
+      <workItem from="1582952667357" duration="346000" />
+      <workItem from="1582953122534" duration="151000" />
+      <workItem from="1582953324653" duration="1159000" />
+      <workItem from="1582955166878" duration="1766000" />
+      <workItem from="1582956980115" duration="279000" />
+      <workItem from="1582958874273" duration="1773000" />
+      <workItem from="1582960692646" duration="1863000" />
+      <workItem from="1582962594934" duration="795000" />
+      <workItem from="1582964452569" duration="1777000" />
+      <workItem from="1582966267318" duration="1776000" />
+      <workItem from="1582968081185" duration="493000" />
+      <workItem from="1582971393262" duration="199000" />
+      <workItem from="1582971627762" duration="1120000" />
+      <workItem from="1582978096617" duration="1065000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
